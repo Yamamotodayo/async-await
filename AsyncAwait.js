@@ -9,7 +9,7 @@ const getGitUsername = async () => {
             console.log("これは非同期処理成功時のメッセージです");
             return res.json()
         }).catch(error => {
-            console.error("これは非同期処理失敗時のメッセージです", error);
+            console.error("これは非同期処理失敗時のメッセージです!", error);
             return null
         });
 
